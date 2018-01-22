@@ -1,3 +1,5 @@
+#爬取https://desk.zol.com.cn/dongwu 十页壁纸，并生成文件夹保存起来！
+
 # -*- coding:utf-8 -*-
 
 from urllib import request
