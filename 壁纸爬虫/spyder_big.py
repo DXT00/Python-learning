@@ -6,7 +6,7 @@ import os
 __author__ = 'DXT- '
 
 
-for i in range(2,10):
+for i in range(2,10):#爬取第2到第10页
 
     #打开首页
     response= request.urlopen('https://desk.zol.com.cn/dongwu/%s.html' %i)
