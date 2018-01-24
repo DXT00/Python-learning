@@ -1,0 +1,2 @@
+var adMshow_100800075188 = false, useAdTicket_100800075188 = false;
+document.writeln('<a href="http://game.zongheng.com/" target="_blank"  class="adClickCss" adPosition="100800075188" adGroup="59"><img src="https://static.zongheng.com/upload/ad/fodder/201402/100800075234.jpg" width="980" height="60" border="0"/></a>');

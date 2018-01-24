@@ -1,0 +1,92 @@
+$(function (){
+	/*女生网六周年*/
+	/*if(location.host.indexOf("huayu") != -1 && $(".bookinfo").length > 0){
+		var huayu = {
+			startTime : new Date("2017/08/15 11:00:00").getTime(),
+			stopTime : new Date("2017/08/21 00:00:00").getTime(),
+			link : "http://news.zongheng.com/act/164.html",
+			img : "http://static.zongheng.com/zhuanti/2017/girlsixyear/pc/images/active.png"
+		};
+		var rightnow = new Date().getTime();
+
+		if(rightnow>= huayu.startTime && rightnow <= huayu.stopTime){
+			$(".bookinfo").append('<a href="'+huayu.link+'" target="_blank"><img src="'+huayu.img+'" width="710"></a>');
+		}
+		
+	}*/
+	/*活动*/
+	/*var TDbookId = 685640;
+	if($("body").attr("isuserdonate")=="true" && $("body").attr("bookid")==TDbookId){
+		var active = {
+			startTime : new Date("2017/09/14 15:30:00").getTime(),
+			stopTime : new Date("2017/09/21 00:00:00").getTime(),
+			link : "http://news.zongheng.com/newBook/167.html",
+			img : "http://static.zongheng.com/zhuanti/2017/tctd/pc/images/active.png"
+		};
+		var timeNow = new Date().getTime();
+
+		if(timeNow>= active.startTime && timeNow <= active.stopTime){
+			$("#bookdonate").find(".donarank").prepend('<a href="'+active.link+'" target="_blank" style="position:relative;margin:-15px auto 15px;display: block;text-align: center;"><img src="'+active.img+'"></a>');
+			$(".pray_pc").append('<div style="position:absolute;top:10px;right:20px;"><a href="'+active.link+'" target="_blank"><img src="'+active.img+'" height="44"></a></div>');
+		}
+		
+
+	}
+	*/
+	/*双倍月票*/
+	if($("body").attr("isuserdonate")=="true" && $("body").attr("dm")==1){
+		var aNum = 174;
+		var doubleTicket = {
+			link : "http://news.zongheng.com/act/"+aNum+".html",
+			img : "http://static.zongheng.com/zhuanti/2017/double12/pc/images/active.png"
+		}
+		if($("#bookdonate").find(".donarank").length>0){//书封
+			$("#bookdonate").find(".donarank").prepend('<a href="'+doubleTicket.link+'" target="_blank" style="position:relative;margin:-15px auto 15px;display: block;text-align: center;"><img src="'+doubleTicket.img+'"></a>');
+			
+			var bookId = $("body").attr("bookid");
+			var timer = new Date().getTime();
+			var ticketHtml='<h4>双倍月票排名</h4>';
+			$.ajax({
+				"type":"get",
+				url:"http://news.zongheng.com/activities/topSingleBookRankNO.svc",
+				data:{bookId:bookId,aNum:aNum,t:timer},
+				dataType:"jsonp",
+				error: function(){},
+				success:function (data){
+					if(data==null || data =="") return false;
+					if(data && data.code==0){
+						var d=data.data;
+						var level=Math.floor(d[0].ranknum) || 0;
+						var count=Math.floor(d[0].score) || 0;
+						if(level==0 || count==0){
+							ticketHtml+='<p>暂无排名</p><p>共<span class="fred fb fs14">0</span>票</p><div class="cl10"></div><div class="spline"></div><div class="cl10"></div>';
+						}else{
+							ticketHtml+='<p>第<span class="fred fs24">'+level+'</span>位</p><p>共<span class="fred fb fs14">'+count+'</span>票</p><div class="cl10"></div><div class="spline"></div><div class="cl10"></div>';
+						}
+						setTimeout(function (){
+							$("#bookdonate").find(".donarank").find(".cl20").hide().siblings(".rankbtns").css("margin-top","5px").siblings(".ico_hg").before(ticketHtml);
+						},300);
+					}
+				}
+			});
+		}
+		if($(".pray_pc").length>0){//阅读页
+			$(".pray_pc").append('<div style="position:absolute;top:10px;right:20px;"><a href="'+doubleTicket.link+'" target="_blank"><img src="'+doubleTicket.img+'" height="48"></a></div>');
+		}	
+	}
+	/*活动推荐位*/
+	/*$.ajax({
+		type:"get",
+		url:"http://book.zongheng.com/api/recommend/getRecommendData.htm",
+		data:{typeId:344,pageSize:1},
+		dataType:"json",
+		error: function(){},
+		success:function (data){
+			if(data && data.recommendDataViewList && data.recommendDataViewList.length>0){
+				var recommendHtml='<a href="'+data.recommendDataViewList[0].linkUrl+'" target="_blank" style="position:relative;margin:-15px auto 15px;display: block;text-align: center;"><img src="http://static.zongheng.com/upload'+data.recommendDataViewList[0].imageUrl+'"></a>';
+				$("#bookdonate").find(".donarank").prepend(recommendHtml)
+			}
+			
+		}
+	});*/
+});

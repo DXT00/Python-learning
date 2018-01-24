@@ -1,0 +1,180 @@
+#index_tpic{float:left;width:296px; position:relative}
+#index_tpic_big{width:244px;height:325px;float:left; overflow:hidden}
+#index_tpic_big a{position:absolute;left:0;top:0; display:none}
+#index_tpic_big img{width:244px;height:325px}
+#index_tpic_tab{ float:right;width:52px;height:325px; overflow:hidden}
+#index_tpic_tab img{ opacity:0.3;filter:alpha(opacity=30);width:43px;height:59px}
+#index_tpic_tab a.active img,#index_tpic_tab a:hover img{ float:right;width:43px;height:59px;margin-bottom:7px; opacity:1;filter:alpha(opacity=100)}
+#index_tpic_tab a{float:right;width:43px;height:59px; overflow:hidden;margin-bottom:7px;}
+#index_tpic_tab a.active,#index_tpic_tab a:hover{width:39px;height:55px;border:2px solid #a3a3a3;}
+
+#index_tpic_binfo{padding-top:6px}
+#index_tpic_binfo p{line-height:20px;color:#787878; text-indent:2em;padding-top:5px}
+#index_tpic_binfo h3 a{color:#526584; line-height:24px}
+.index_news{ float:left;width:428px; display:inline;margin-left:20px}
+.index_news h2{ padding:6px 0; text-align:center; font-family:"微软雅黑";_font-family:"宋体"; font-size:20px; font-weight:normal;}
+.index_news h2 a{ color:#303030;}
+.index_news h2 a:hover{ color:#a20e21;}
+.index_news .wz{ padding:0 0 13px;}
+.index_news .wz li{ font-size:14px;height:28px;line-height:28px; float:left;width:210px;_width:208px;overflow:hidden; text-overflow: ellipsis;white-space:nowrap;margin:0 2px}
+.index_news .wz li a span,.index_news .wz li span a{ color:#526584;}
+.index_news .wz li a{ color:#333;}
+.index_news .wz li a:hover,.index_news .wz li a:hover span{color:#a20e21}
+.index_news .game li{float:left;width:70px; text-align:center;line-height:22px;overflow:hidden; text-overflow: ellipsis;white-space:nowrap;margin:4px 0px 0; display:inline}
+.index_news .game li span{width:54px;height:54px;display:block;overflow:hidden;border-radius:5px;border:1px solid #a9aeb7;margin:auto; cursor:pointer}
+.index_news .game li span img{width:56px;height:56px}
+.index_news .game li a{color:#30425f; display:block}
+.index_rec{height:38px; overflow:hidden; line-height:16px}
+.index_rec h3{ float:left;width:40px;height:38px; background:#a20e20; line-height:16px;color:#fff; text-align:center;padding-top:3px;}
+.index_rec .fl{padding-top:3px;padding-left:5px;width:165px; overflow:hidden}
+
+.ctit{border-left:6px solid #a20e20;border-top:2px solid #a20e20;font-size:24px;padding:4px 0 0 8px;font-family:微软雅黑;color:#a20e20;font-weight:normal}
+.ctit .more{ line-height:30px;font-family:宋体}
+
+/*强行对齐*/
+#index_redtlist{height:370px;overflow:hidden}#index_redtlist .list ul{padding:5px 12px}
+#clk_rco_clickrank{height:417px;zoom:1}#clk_rco_clickrank .list{padding:7px 0}
+h2.ctab .tabM_wap{width:100px}
+
+/*首页一栏推荐*/
+h2.ctab{border-bottom:2px solid #a20e20;height:32px; line-height:32px;color:#a20e20;font-weight:normal; overflow:hidden}
+.ctab_wap a{font-size:20px;color:#303030;font-family:微软雅黑; display:inline-block;padding:0 8px;margin-right:12px}
+.ctab_wap a:hover{ text-decoration:none}
+.ctab_wap a.active{background:#a20e20;color:#fff}
+.mind_book{float:left;width:238px;height:142px;margin:20px 0 5px 0;padding-right:15px;_width:234px;height:142px; overflow:hidden}
+.mind_book .cover{width:106px;height:140px; float:left; display:inline;margin:0 16px auto 0px}
+.mind_book .cover img{width:106px;height:140px;}
+.mind_book .info{height:120px; overflow:hidden}
+
+/*游戏推荐*/
+#index_game{height:238px;background:#e9ebee;padding:0 0 0 8px}
+#index_game h2{height:45px; line-height:45px;padding:0 8px;font-size:22px;font-family:微软雅黑;font-weight:normal;color:#303030}
+#index_game h2 .more{font-family:宋体}
+/**/
+#index_game .i_gamebox {width: 226px;height:170px;float:left;position:relative;margin:5px 0 0 12px; display:inline}
+#index_game .arealink{ width:226px; height:140px; position:relative; display:block;}
+#index_game .arealink img{ width:226px; height:140px; border:none 0; border-top-left-radius:8px; border-top-right-radius:8px;}
+#index_game a{ color:#787878; text-decoration:none;}
+#index_game .arealink .gamecon{ position:absolute; z-index:2; width:200px;left:8px; bottom:0px; background:#fff; border-top-left-radius:5px;border-top-right-radius:5px; padding:0 5px; display:none;}
+#index_game .i_gamebox p{ padding:0; word-break:break-all; color:#787878; line-height:22px;}
+#index_game .i_gamebox p.tit{ overflow:hidden; margin-right:-5px;color:#343434; font-weight:bold; font-size:12px; line-height:30px; height:30px;}
+#index_game .i_gamebox p.tit span{ float:right; color:#787878; font-weight:normal; font-size:12px;}
+#index_game .i_gamebox p .gamego{ padding:0 5px; border-top-left-radius:5px; border-bottom-left-radius:5px; margin:0; font-size:14px; font-family:"微软雅黑"; background-color:#ff7e00; color:#fff; position:relative;}
+
+#index_game .game_btn{ height:26px; line-height:26px; overflow:hidden; padding:0 0 0 5px;border-bottom-left-radius:5px;border-bottom-right-radius:5px; background:#fff;}
+#index_game .game_tit{color:#343434; font-weight:bold; font-size:12px; float:left;}
+#index_game .game_tit a{color:#343434;}
+#index_game .game_jump{ float:right;}
+#index_game .game_jump a{ color:#526584; display:inline-block;}
+#index_game .game_jump .gamestart{ color:#fff; background:#da021c; border-bottom-right-radius:5px; padding:0 6px; margin-left:5px; *margin-right:-6px;}
+/**/
+
+/*分类热门推荐*/
+#cat_goodshow,#mind_goodshow{width:103%;_width:750px;padding-top:10px;}#cat_goodshow{height:785px;}
+.cat_book{ float:left;width:224px;height:370px;border:1px solid #d8d8d8;margin:0px 16px 20px auto;background:#fff; position:relative;padding-right:10px;_margin-right:12px;_overflow:hidden}
+.cat_book .catname{height:25px; line-height:25px;padding:0px 9px; display:inline-block; float:left; background:#526584;margin-top:10px;margin-left:-1px;color:#fff;font-weight:normal;font-size:14px}
+.cat_book .more{ float:right;margin-top:16px; display:inline;}
+.cat_book .cover{width:106px;height:140px; float:left; display:inline;margin:0 9px auto 12px}
+.cat_book .cover img{width:106px;height:140px;}
+.cat_book .side_pic{ position:absolute;width:5px;height:31px; left:-6px;top:4px; background:url(../images/icons.png) -60px -60px no-repeat; overflow:hidden;_left:-5px}
+.cat_book .info{height:100px; overflow:hidden}
+.cat_book .wz{padding:12px 5px 0 15px;}
+.cat_book .wz li{height:28px; line-height:28px;font-size:14px; overflow:hidden; white-space:nowrap;text-overflow: ellipsis;_width:220px}
+.cat_book .wz li a{color:#333}
+.cat_book .wz li a span{color:#526584}
+.cat_book .wz li a:hover,.cat_book .wz li a:hover span{color:#a20e21}
+.bookname{font-size:14px; line-height:20px; color:#526584;margin:0 0 3px 0}
+.cat_book .author{color:#333;padding-bottom:9px}
+.info a{color:#333; line-height:20px}
+/*女生板块*/
+.cat_lnk{font-size:18px;color:#a9aeb7;font-family:宋体;font-weight:normal;margin-top:10px}
+.cat_lnk a{color:#333}
+.index_l_piclnk{float:left; position:relative;width:214px;height:320px; text-align:center;}
+.index_l_piclnk a p,.index_l_piclnk a:hover p{ line-height:33px;font-size:14px;color:#526584;font-weight:bold}
+.index_l_piclnk a:hover{ text-decoration:none}
+.index_l_piclnk a img{width:214px;height:286px}
+.index_l_piclnk a:hover span{ text-decoration:none}
+.index_l_piclnk a span{ position:absolute;top:232px;height:45px;padding:5px;display:block;background:#646f81; opacity:0.9;filter(alpha=90); text-align:left;color:#fff;font-size:14px; line-height:22px;left:0;width:204px}
+#girl_show{ float:right;width:495px}
+#girl_show .bookbox{ float:left;width:232px;height:160px; display:inline;margin:0 10px 0 5px; line-height:20px;color:#333}
+.bookbox a{color:#333}
+.bookbox img{width:106px;height:141px}
+.bookbox .cover{ float:left;margin-right:10px}
+.bookbox .bookstyle{padding-bottom: 5px}
+.showlist .wz{padding:0}
+.showlist .wz li{height:28px; line-height:28px;font-size:14px; float:left;width:49.9%;overflow:hidden; white-space:nowrap;text-overflow: ellipsis}
+.showlist .wz li a{color:#787878}
+.showlist .wz li a.fblue{color:#526584}
+/*动漫区推荐*/
+#comic_show{ float:right;width:495px}
+#comic_show h2{ padding:0px 0 4px; text-align:center; font-family:"微软雅黑";_font-family:"宋体"; font-size:20px; font-weight:normal;}
+#comic_show h2 a{ color:#333;}
+#comic_show .bookbox{width:24.9%; float:left; text-align:center;margin:8px 0 0; line-height:20px;height:170px; overflow:hidden}
+#comic_show .bookbox .cover{ float:none; clear:both; display:block; height:141px; overflow:hidden}
+#comic_show .bookbox .cover img{width:106px;height:141px;}
+#comic_show .bookbox h3{ line-height:35px;margin-bottom:0}
+
+/*有更新章节*/
+.new_chapter .title .date{ height:40px; line-height:39px; border-bottom:1px solid #afafb0; font-size:20px; color:#303030; padding:0;}
+.new_chapter .title span{ margin:0 10px; position:relative; cursor:pointer; display:inline-block;_height:39px;font-family:微软雅黑}
+.new_chapter .title span.active{ color:#a20e20;}
+.new_chapter .title span.active .triangle_down{ position:absolute;background:url(../images/icons.png) -94px -40px; width:9px; height:6px;overflow:hidden; left:50%;margin-left:-5px;top:40px; display:block}
+.new_chapter .title .triangle_down{display:none}
+
+.new_chapter .head{margin-bottom:5px; height:22px; overflow:hidden;padding-top:15px;*padding-top:18px!important; display:block;zoom:1; float:}
+.new_chapter .head span, .new_chapter .main_con li span{ float:left; color:#4b7b9c; text-align:center;}
+.new_chapter .head .kind, .new_chapter .main_con .kind{ width:45px;}
+.new_chapter .head .chap{ padding-left:80px; text-align:left; width:450px;}
+.new_chapter .head .author, .new_chapter .main_con .author{ width:80px;}
+.new_chapter .head .time, .new_chapter .main_con .time{ width:50px;}
+
+.new_chapter .main_con{border-bottom:1px solid #afafaf;padding-bottom:10px}
+.new_chapter .main_con a{ color:#333;}
+.new_chapter .main_con .chap{ text-align:left; width:520px;padding-left:10px}
+.new_chapter .main_con .chap .fs14{ color:#526584; font-size:14px;margin-right:10px}
+.new_chapter .main_con .chap .limit{ margin-left:5px;}
+.new_chapter .main_con .author a{color:#526584}
+.new_chapter .main_con .mark{ color:#f51307;}
+.new_chapter .main_con li{ height:32px; line-height:32px; *height:30px; *line-height:30px; overflow:hidden;}
+.new_chapter .main_con .line{ padding-top:14px; margin-bottom:10px; height:1px; line-height:0;}
+.new_chapter .main_con .time,.new_chapter .main_con .author{ font-family:Arial;color:#787878}
+.tab .book_list.today{ padding-bottom:4px;padding-bottom:6px\9;}
+.tab .book_list.today ul li{ height:29px; line-height:29px;}
+.new_chapter .tabpanel .more{ text-align:right;padding-right:10px; line-height:30px}
+
+#monthTicketRankList{height:289px}
+/*联系我们*/
+.cooperation{ background:#e4e8ea;padding:8px 15px; text-align:left;color:#333; line-height:20px}
+.cooperation b{ line-height:24px}
+/*新服表*/
+.game_new_list{ height:120px; overflow:hidden; position:relative;}
+.game_new_list .list_bg_img{ position:absolute; right:0; bottom:0; z-index:10; line-height:0;}
+.game_new_list .list_bg_img img{ width:170px; height:116px;}
+.game_new_list h3{ width:18px; line-height:20px; font-size:18px; font-weight:normal; color:#526584; font-family:"微软雅黑"; padding-top:18px; float:left; padding-left:13px;}
+.game_new_list .game_lists{ float:left; width:285px; padding:10px 0 0 15px; position:relative; z-index:100;}
+.game_new_list .game_lists ol{ height:auto; overflow:hidden;}
+.game_new_list .game_lists ul{ height:auto; overflow:hidden;}
+.game_new_list .game_lists span{ float:left; font-size:14px; color:#333; overflow:hidden; height:22px;}
+.game_new_list .game_lists a{ color:#333;}
+.game_lists span.game_title{ width:100px; padding-left:5px;}
+.game_lists span.game_title b{ max-width:85px; width:auto!important; width:85px; height:22px; display:inline-block; *display:inline;*zoom:1;}
+.game_lists span.new_zone{ width:50px; text-align:right; padding:0 30px 0 0;}
+.game_lists span.new_time{ width:90px; padding:0 5px;}
+.game_new_list .game_lists ul li{ line-height:22px; margin:2px 0; height:22px; overflow:hidden;}
+.game_lists ul li a{height:22px; overflow:hidden; display:inline-block; *display:inline;*zoom:1;}
+.game_lists ul li a:hover{ background-color:#e4e8ea;}
+.game_lists ul li .game_title .new_fire{background:url(http://static.zongheng.com/v2014/images/game/new_fire.png) no-repeat; width:10px; height:16px; display:inline-block; *display:inline;*zoom:1; vertical-align:top; margin-top:3px; margin-left:3px;}
+.game_lists ul li.first span{ color:#b01f2e;}
+.game_lists li.first span a{ color:#b01f2e;}
+
+/*合作伙伴*/
+.partner{}
+.partner .tit{ float:left; width:120px; height:45px; background:#a9aeb7; text-align:center;}
+.partner .tit h2{font-size:18px;font-family:微软雅黑;color:#fff; line-height:45px;font-weight:normal}
+.partner .con{ width:870px; float:right; margin:0 10px;}
+.partner .imglist{ float:left;width:852px;border-bottom:1px dashed #e0dfdf;padding-left:8px}
+.partner .imglist li{ float:left; height:44px; width:106px; text-align:center;}
+.partner .imglist li img{ border:1px solid #e0dfdf; padding:1px;}
+.partner .wzlist{ padding:15px 0 0 15px; overflow:hidden;clear:both}
+.partner .wzlist li{ float:left; height:24px; overflow:hidden; width:106px;}
+.partner .wzlist li a{ color:#888;}
